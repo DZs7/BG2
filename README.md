@@ -1,2 +1,3 @@
 # BG2
-Website for PWA
+Website for PWA:
+https://github.com/sobotapl/BezpieczneGotowanie2
