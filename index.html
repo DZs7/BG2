@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Aplikacja na PWA" />
+        <meta name="author" content="MM, MT, PS i DŻ" />
+        <title>Bezpieczne gotowanie PWA</title>
+		
+        <!-- Czionki Awesome-->
+        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google czionki-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- CSS (+ cały CSS Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+		
+		
+    </head>
+    <body id="page-top">
+	
+        <!-- Nawigacja-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#promo">Promo</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#funkcje">Funkcje</a></li>
+						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#galeria">Galeria</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+		
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Logo--><img class="masthead-avatar mb-5" src="assets/img/logo.svg" alt="" />
+				<!-- Masthead Tytuł--><h1 class="masthead-heading text-uppercase mb-0">Bezpieczne Gotowanie</h1>
+                <!-- Podział Ikon-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Podtytuł-->
+                <p class="masthead-subheading font-weight-light mb-0">Składniki - Wyszukiwanie - Przepisy</p>
+            </div>
+        </header>
+		
+		<!-- Sekcja Promo-->
+        <section class="page-section" id="promo">
+            <div class="container">
+                <!-- Sekcja Promo tytuł-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"></h2>
+                <!-- Podział ikon-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Carousel-->
+                <div class="container">
+				  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					  </ol>
+					  <div class="carousel-inner">
+						<div class="carousel-item active">
+						  <img class="d-block w-100" src="assets/img/skladniki.jpg" alt="Składniki">
+						   <div class="carousel-caption d-none d-md-block">
+						<h5>Składniki</h5>
+						<p>Wyszukaj interesujące przepisy dla podanych składników</p>
+					  </div>
+						</div>
+						<div class="carousel-item">
+						  <img class="d-block w-100" src="assets/img/gotowanie.jpg" alt="Gotowanie">
+							 <div class="carousel-caption d-none d-md-block">
+						<h5>Gotowanie</h5>
+						<p>Przygotuj niesamowite potrawy według podanych przepisów</p>
+					  </div>
+						</div>
+						<div class="carousel-item">
+						  <img class="d-block w-100" src="assets/img/podanie.jpg" alt="Podanie">
+						   <div class="carousel-caption d-none d-md-block">
+						<h5>Przepisy</h5>
+						<p>Poznaj nowe smaki z przepisami z całego świata</p>
+					  </div>
+						</div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Poprzedni</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Następny</span>
+					  </a>
+					</div>
+            </div>
+        </section> 
+		
+		  <!-- Sekcja Funkcji-->
+        <section class="page-section bg-primary text-white mb-0" id="funkcje">
+            <div class="container">
+                <!-- Sekcja Funkcje Tytuł-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Funkcje</h2>
+                <!-- Podział Ikon-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Sekcja Funkcji Kontent-->
+                <div class="row">
+                    <div class="col-lg-4 ml-auto"><p class="lead">W okresie panującej pandemii koronawirusa aplikacja ma za zadanie zaproponowanie przepisu na przygotowanie konkretnej potrawy na podstawie produktów które zostały przez nas zgromadzone. Użytkownik wprowadza do aplikacji dostępne produkty, po której następuje analiza i przedstawienie propozycji przygotowania posiłku.</p></div>
+                    <div class="col-lg-4 mr-auto"><p class="lead">Zalety: <ul> <li>Szybko</li><li>Wygodnie</li><li>Smacznie</li><li>Na miejscu</li><li>Rodzinie</li></ul></p></div>
+                </div>
+                <!-- Sekcja Funkcje Button-->
+                <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-light" href="assets/BG.apk"><i class="fas fa-download mr-2"></i>Pobierz!</a>
+                </div>
+            </div>
+        </section>
+		
+        <!-- Sekcja Galerii-->
+        <section class="page-section galeria" id="galeria">
+            <div class="container">
+                <!-- Sekcja Galerii Tytuł-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Galeria</h2>
+                <!-- Ikony Podział-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Galeria Siatka-->
+                <div class="row">
+                    <!-- Galeria nr 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="galeria-item mx-auto" data-toggle="modal" data-target="#galeriaModal1">
+                            <div class="galeria-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="galeria-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/galeria/start.png" alt="Minaturka- Ekran Start" />
+                        </div>
+                    </div>
+                    <!-- Galeria nr 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="galeria-item mx-auto" data-toggle="modal" data-target="#galeriaModal2">
+                            <div class="galeria-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="galeria-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/galeria/logowanie.png" alt="Minaturka- Ekran Logowania" />
+                        </div>
+                    </div>
+                    <!-- Galeria nr 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="galeria-item mx-auto" data-toggle="modal" data-target="#galeriaModal3">
+                            <div class="galeria-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="galeria-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/galeria/skladniki.png" alt="Minaturka- Ekran Składników" />
+                        </div>
+                    </div>
+                    <!-- Galeria nr 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="galeria-item mx-auto" data-toggle="modal" data-target="#galeriaModal4">
+                            <div class="galeria-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="galeria-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/galeria/lista.png" alt="Minaturka- Ekrany Listy przepisów" />
+                        </div>
+                    </div>
+                    <!-- Galeria nr 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="galeria-item mx-auto" data-toggle="modal" data-target="#galeriaModal5">
+                            <div class="galeria-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="galeria-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/galeria/danie.png" alt="Minaturka- Ekran Losowego Dania" />
+                        </div>
+                    </div>
+                    <!-- Galeria nr 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="galeria-item mx-auto" data-toggle="modal" data-target="#galeriaModal6">
+                            <div class="galeria-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="galeria-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/galeria/przepis.png" alt="Minaturka- Ekran Przepisu" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+        <!-- Stopka-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Stopka Lewo-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Zespół:</h4>
+                        <p class="lead mb-0">Michał Matusik<br />Mariusz Tota <br /> Piotr Sobociński <br /> Daniel Żurek</p>
+                    </div>
+                    <!-- Stopka Środek-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Linki:</h4>
+                        <p> <a href="https://github.com/sobotapl/BezpieczneGotowanie2">GitHub</a> <br /> <a href="">GitIo</a> <br /> <a href="https://bezpieczne.herokuapp.com/">Hosting</a><br /> <a href="https://marvelapp.com/8big621/screen/70038037">Prototyp</a></p>
+                    </div>
+                    <!-- Stopka Prawo-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">Bezpieczne Gotowanie</h4>
+                        <p class="lead mb-0">Aplikacja w ramach projektu na PWA</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+		
+        <!-- Copyright -->
+        <section class="copyright py-4 text-center text-white">
+            <div class="container"><small>Bezpieczne Gotowanie © UEK 2020</small></div>
+        </section>
+		
+        <!-- Scroll do góry (Małe ekrany)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+		
+        <!-- Galeria Okna-->
+		<!-- Galeria Modal 1-->
+        <div class="galeria-modal modal fade" id="galeriaModal1" tabindex="-1" role="dialog" aria-labelledby="galeriaModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Galeria Modal - Tytuł-->
+                                    <h2 class="galeria-modal-title text-secondary text-uppercase mb-0">Start</h2>
+                                    <!-- Podział Ikon-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Galeria Modal - Obraz--><img class="img-fluid rounded mb-5" src="assets/img/galeria/start.png" alt="Ekran Startu" /><!-- Galeria Modal - Text-->
+                                    <p class="mb-5">Ekran startowy aplikacji wraz z opcją rejestracji.</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Zamknij</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Galeria Modal 2-->
+        <div class="galeria-modal modal fade" id="galeriaModal2" tabindex="-1" role="dialog" aria-labelledby="galeriaModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Galeria Modal - Tytuł-->
+                                    <h2 class="galeria-modal-title text-secondary text-uppercase mb-0">Logowanie</h2>
+                                    <!-- Podział Ikon-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Galeria Modal - Obraz--><img class="img-fluid rounded mb-5" src="assets/img/galeria/logowanie.png" alt="Ekran Logowania" /><!-- Galeria Modal - Text-->
+                                    <p class="mb-5">Ekran logowania aplikacji.</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Zamknij</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Galeria Modal 3-->
+        <div class="galeria-modal modal fade" id="galeriaModal3" tabindex="-1" role="dialog" aria-labelledby="galeriaModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Galeria Modal - Tytuł-->
+                                    <h2 class="galeria-modal-title text-secondary text-uppercase mb-0">Wybór Składników</h2>
+                                    <!-- Podział Ikon-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Galeria Modal - Obraz--><img class="img-fluid rounded mb-5" src="assets/img/galeria/skladniki.png" alt="Ekran Wyboru Składników" /><!-- Galeria Modal - Text-->
+                                    <p class="mb-5">Ekran wyboru składników do wszukania przepisów ich używających.</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Zamknij</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Galeria Modal 4-->
+        <div class="galeria-modal modal fade" id="galeriaModal4" tabindex="-1" role="dialog" aria-labelledby="galeriaModal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Galeria Modal - Tytuł-->
+                                    <h2 class="galeria-modal-title text-secondary text-uppercase mb-0">Lista</h2>
+                                    <!-- Podział Ikon-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Galeria Modal - Obraz--><img class="img-fluid rounded mb-5" src="assets/img/galeria/lista.png" alt="Ekran Listy Przepisów" /><!-- Galeria Modal - Text-->
+                                    <p class="mb-5">Ekran z listą przepisów wykorzystujących składniki podane przez uzytkownika.</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Zamknij</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Galeria Modal 5-->
+        <div class="galeria-modal modal fade" id="galeriaModal5" tabindex="-1" role="dialog" aria-labelledby="galeriaModal5Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Galeria Modal - Tytuł-->
+                                    <h2 class="galeria-modal-title text-secondary text-uppercase mb-0">Danie</h2>
+                                    <!-- Podział Ikon-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Galeria Modal - Obraz--><img class="img-fluid rounded mb-5" src="assets/img/galeria/danie.png" alt="Ekran Losowego Dania" /><!-- Galeria Modal - Text-->
+                                    <p class="mb-5">Ekran z propozycją losowy przepisów</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Zamknij</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Galeria Modal 6-->
+        <div class="galeria-modal modal fade" id="galeriaModal6" tabindex="-1" role="dialog" aria-labelledby="galeriaModal6Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Galeria Modal - Tytuł-->
+                                    <h2 class="galeria-modal-title text-secondary text-uppercase mb-0">Przepis</h2>
+                                    <!-- Podział Ikon-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Galeria Modal - Obraz--><img class="img-fluid rounded mb-5" src="assets/img/galeria/przepis.png" alt="Ekran Wybranego Przepisu" /><!-- Galeria Modal - Text-->
+                                    <p class="mb-5">Ekran z stroną przedsawiającą dokładny sposób przyrządzenia wybranego dania.</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Zamknij</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+        <!-- Bootstrap  JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Pozostały JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Podstawowy JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
